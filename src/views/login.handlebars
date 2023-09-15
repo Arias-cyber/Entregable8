@@ -1,0 +1,24 @@
+
+<div>
+
+    <h1>Buenas, logueate</h1>
+
+    <form id="loginForm" >
+
+        <label>Email</label>
+        <input name="email">
+
+        <label>Contraseña</label>
+        <input type="password" name="password">
+
+        <input type="submit">
+    </form>
+    <div>
+        <a href="/api/sessions/github"> <button> Entrar con Github</button> </a>
+    </div>
+    <p id="errorMessage" style="color: red; display: none;">Usuario o contraseña incorrectos</p>
+    <p>¿No tienes cuenta? <a href="/register">Regístrate</a></p>
+
+</div>
+
+<script src="/js/login.js"></script>

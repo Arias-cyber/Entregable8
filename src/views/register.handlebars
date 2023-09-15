@@ -1,0 +1,28 @@
+<div>
+
+    <h1>Regístrate</h1>
+
+    <form id="registerForm" >
+
+        <label>Nombre</label>
+        <input name="first_name">
+
+        <label>Apellido</label>
+        <input name="last_name">
+
+        <label>Email</label>
+        <input name="email">
+
+        <label>Contraseña</label>
+        <input type="password" name="password">
+        
+        <label>Edad</label>
+        <input name="age" type="number">
+
+        <input type="submit">
+    </form>
+    <p id="errorMessage" style="color: red; display: none;">correo ya registrado</p>
+    <p>¿Ya tienes cuenta? <a href="/login">Inicia Sesion</a></p>
+</div>
+
+<script src="/js/register.js"></script>

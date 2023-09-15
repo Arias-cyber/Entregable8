@@ -1,0 +1,14 @@
+<body>
+  <div>
+    <h1>Todo listo para trabajar con Websockets</h1>
+    <h1>Lista de productos</h1>
+    <ul id="product-list">
+      {{#each products}}
+      <li>{{this.title}}</li>
+      {{/each}}
+    </ul>
+  </div>
+</body>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"> </script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="./js/chat.js"></script>
